@@ -1,7 +1,28 @@
 aid: joinzoe
-name: joinzoe
-description: joinzoe is a company surfaced as a portfolio company of balderton-capital and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+name: ZOE
+description: >-
+  ZOE (joinzoe.com, canonically zoe.com) is a personalized nutrition and health
+  science company founded on data from one of the largest nutrition research
+  studies in the world. Its membership program pairs at-home testing (gut health,
+  blood sugar, and blood fat responses) with an AI-powered app that scores meals,
+  tracks personal food responses, and delivers science-backed dietary guidance.
+  ZOE also sells consumer products including the Daily30+ whole-food supplement
+  and Gut Health products, and publishes the ZOE Science & Nutrition podcast. The
+  company operates as a direct-to-consumer health brand rather than an API
+  provider, and is tracked here as a Balderton Capital portfolio company; it
+  currently exposes no public developer platform, API, or developer portal.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://zoe.com/favicon.ico
 url: https://raw.githubusercontent.com/api-evangelist/joinzoe/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +30,19 @@ x-backed-by:
 - balderton-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-no-public-api: true
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Health
+- Nutrition
+- Wellness
+- Personalized Nutrition
+- Consumer Health
+- Gut Health
+- Direct to Consumer
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +51,23 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://joinzoe.com/
+  url: https://zoe.com/
+- type: Blog
+  url: https://zoe.com/learn
+- type: Support
+  url: https://zoe.com/en-gb/faqs
+- type: PrivacyPolicy
+  url: https://zoe.com/privacy-policy
+- type: TermsOfService
+  url: https://zoe.com/en-gb/terms
+- type: SignUp
+  url: https://zoe.com/en-gb/buymembership
+- type: DomainSecurity
+  url: security/joinzoe-domain-security.yml
+- type: WellKnown
+  url: well-known/joinzoe-well-known.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
