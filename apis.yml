@@ -11,6 +11,17 @@ description: >-
   company operates as a direct-to-consumer health brand rather than an API
   provider, and is tracked here as a Balderton Capital portfolio company; it
   currently exposes no public developer platform, API, or developer portal.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
